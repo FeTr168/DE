@@ -1,0 +1,28 @@
+{
+  "customer_id": 123,
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "john.doe@example.com",
+  "addresses": [
+    {
+      "street_address": "123 Old St",
+      "city": "Old City",
+      "state": "Old State",
+      "postal_code": "12345",
+      "country": "USA",
+      "start_date": "2020-01-01",
+      "end_date": "2022-01-01",
+      "latest": false
+    },
+    {
+      "street_address": "456 New St",
+      "city": "New City",
+      "state": "New State",
+      "postal_code": "67890",
+      "country": "USA",
+      "start_date": "2022-01-02",
+      "end_date": null,
+      "latest": true
+    }
+  ]
+}
